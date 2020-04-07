@@ -1,0 +1,19 @@
+{
+  "name": "movie-library",
+  "version": "1.0.0",
+  "description": "Application for watching avaible movies",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Scimbor/Movie-Library.git"
+  },
+  "author": "Marcin Scimborski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Scimbor/Movie-Library/issues"
+  },
+  "homepage": "https://github.com/Scimbor/Movie-Library#readme"
+}
