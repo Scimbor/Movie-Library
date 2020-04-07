@@ -4,7 +4,8 @@
   "description": "Application for watching avaible movies",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/Scimbor/Movie-Library/issues"
   },
-  "homepage": "https://github.com/Scimbor/Movie-Library#readme"
+  "homepage": "https://github.com/Scimbor/Movie-Library#readme",
+  "devDependencies": {
+    "electron": "^8.2.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.4.1"
+  }
 }
