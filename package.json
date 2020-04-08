@@ -2,10 +2,11 @@
   "name": "movie-library",
   "version": "1.0.0",
   "description": "Application for watching avaible movies",
-  "main": "index.js",
+  "main": "app/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "electron ."
+    "start": "electron .",
+    "scss": "node-sass --watch scss -o css"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,6 @@
     "electron": "^8.2.1"
   },
   "dependencies": {
-    "bootstrap": "^4.4.1"
+    "node-sass": "^4.13.1"
   }
 }
